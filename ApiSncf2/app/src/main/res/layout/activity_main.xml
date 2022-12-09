@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="SNCF"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:background="#004280"
+        android:textColor="#b6d8fc"
+        android:textStyle="bold"
+        android:layout_height="60dp"/>
+
+    <Spinner
+        android:id="@+id/sipnner_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/sipnner_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:text="Search"/>
+
+</LinearLayout>
